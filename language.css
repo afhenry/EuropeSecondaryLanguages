@@ -1,0 +1,58 @@
+body {
+  font: 13px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.mesh {
+		fill: none;
+  		stroke: lightgrey;
+  		stroke-width: 2px;
+  		stroke-linejoin: round;
+	}
+
+.dot {
+  stroke: #000;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    width: 125px;
+    height: 75px;
+    padding: 2px;
+    pointer-events: none;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: aqua;
+}
+
+svg {
+  font: 10px sans-serif;
+}
+
+.caption {
+  font-weight: bold;
+}
+
+.key path {
+  display: none;
+}
+
+.key line {
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.county-border {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .3;
+}
